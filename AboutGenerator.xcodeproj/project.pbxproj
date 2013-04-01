@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27917BB417092FA700180547 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27917BB317092FA700180547 /* UIKit.framework */; };
+		27917BB617092FA700180547 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27917BB517092FA700180547 /* Foundation.framework */; };
+		27917BB817092FA700180547 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27917BB717092FA700180547 /* CoreGraphics.framework */; };
+		27917BBE17092FA700180547 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27917BBC17092FA700180547 /* InfoPlist.strings */; };
+		27917BC617092FA800180547 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 27917BC517092FA800180547 /* Default.png */; };
+		27917BC817092FA800180547 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27917BC717092FA800180547 /* Default@2x.png */; };
+		27917BCA17092FA800180547 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27917BC917092FA800180547 /* Default-568h@2x.png */; };
+		27917BD01709305800180547 /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27917BCF1709302B00180547 /* GHUnitIOS.framework */; };
+		27917BD21709306C00180547 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27917BD11709306C00180547 /* QuartzCore.framework */; };
+		27917BD4170930BA00180547 /* GHUnitIOSTestMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 27917BD3170930BA00180547 /* GHUnitIOSTestMain.m */; };
+		27917BD71709310300180547 /* AboutGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 27917BD61709310300180547 /* AboutGenerator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		27917BB117092FA700180547 /* AboutGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AboutGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27917BB317092FA700180547 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		27917BB517092FA700180547 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		27917BB717092FA700180547 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		27917BBB17092FA700180547 /* AboutGenerator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AboutGenerator-Info.plist"; sourceTree = "<group>"; };
+		27917BBD17092FA700180547 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		27917BC117092FA700180547 /* AboutGenerator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AboutGenerator-Prefix.pch"; sourceTree = "<group>"; };
+		27917BC517092FA800180547 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		27917BC717092FA800180547 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		27917BC917092FA800180547 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		27917BCF1709302B00180547 /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GHUnitIOS.framework; sourceTree = "<group>"; };
+		27917BD11709306C00180547 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		27917BD3170930BA00180547 /* GHUnitIOSTestMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GHUnitIOSTestMain.m; path = "../../gh-unit/Tests/GHUnitIOSTestMain.m"; sourceTree = "<group>"; };
+		27917BD51709310300180547 /* AboutGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutGenerator.h; sourceTree = "<group>"; };
+		27917BD61709310300180547 /* AboutGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutGenerator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27917BAE17092FA700180547 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27917BD21709306C00180547 /* QuartzCore.framework in Frameworks */,
+				27917BD01709305800180547 /* GHUnitIOS.framework in Frameworks */,
+				27917BB417092FA700180547 /* UIKit.framework in Frameworks */,
+				27917BB617092FA700180547 /* Foundation.framework in Frameworks */,
+				27917BB817092FA700180547 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27917BB217092FA700180547 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27917BD11709306C00180547 /* QuartzCore.framework */,
+				27917BB317092FA700180547 /* UIKit.framework */,
+				27917BB517092FA700180547 /* Foundation.framework */,
+				27917BB717092FA700180547 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27917BB917092FA700180547 /* AboutGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				27917BD81709310E00180547 /* Code */,
+				27917BBA17092FA700180547 /* Supporting Files */,
+			);
+			path = AboutGenerator;
+			sourceTree = "<group>";
+		};
+		27917BBA17092FA700180547 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27917BD3170930BA00180547 /* GHUnitIOSTestMain.m */,
+				27917BBB17092FA700180547 /* AboutGenerator-Info.plist */,
+				27917BBC17092FA700180547 /* InfoPlist.strings */,
+				27917BC117092FA700180547 /* AboutGenerator-Prefix.pch */,
+				27917BC517092FA800180547 /* Default.png */,
+				27917BC717092FA800180547 /* Default@2x.png */,
+				27917BC917092FA800180547 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27917BCE1709302B00180547 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				27917BCF1709302B00180547 /* GHUnitIOS.framework */,
+			);
+			name = Framework;
+			path = "../gh-unit/Project-iOS/build/Framework";
+			sourceTree = "<group>";
+		};
+		27917BD81709310E00180547 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				27917BD51709310300180547 /* AboutGenerator.h */,
+				27917BD61709310300180547 /* AboutGenerator.m */,
+			);
+			name = Code;
+			sourceTree = "<group>";
+		};
+		A471A469F4DCD3988DCB63E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27917BB117092FA700180547 /* AboutGenerator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A471A7BF4C8AC3959ADD0219 = {
+			isa = PBXGroup;
+			children = (
+				27917BCE1709302B00180547 /* Framework */,
+				27917BB917092FA700180547 /* AboutGenerator */,
+				27917BB217092FA700180547 /* Frameworks */,
+				A471A469F4DCD3988DCB63E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27917BB017092FA700180547 /* Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27917BCD17092FA800180547 /* Build configuration list for PBXNativeTarget "Test" */;
+			buildPhases = (
+				27917BAD17092FA700180547 /* Sources */,
+				27917BAE17092FA700180547 /* Frameworks */,
+				27917BAF17092FA700180547 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Test;
+			productName = AboutGenerator;
+			productReference = 27917BB117092FA700180547 /* AboutGenerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A471AAD60B7DE5957ADE48E6 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = A471A632A4439C665E629D27 /* Build configuration list for PBXProject "AboutGenerator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A471A7BF4C8AC3959ADD0219;
+			productRefGroup = A471A469F4DCD3988DCB63E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27917BB017092FA700180547 /* Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27917BAF17092FA700180547 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27917BBE17092FA700180547 /* InfoPlist.strings in Resources */,
+				27917BC617092FA800180547 /* Default.png in Resources */,
+				27917BC817092FA800180547 /* Default@2x.png in Resources */,
+				27917BCA17092FA800180547 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27917BAD17092FA700180547 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27917BD4170930BA00180547 /* GHUnitIOSTestMain.m in Sources */,
+				27917BD71709310300180547 /* AboutGenerator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		27917BBC17092FA700180547 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27917BBD17092FA700180547 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27917BCB17092FA800180547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+					"\"$(SRCROOT)/../gh-unit/Project-iOS/build/Framework\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AboutGenerator/AboutGenerator-Prefix.pch";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "AboutGenerator/AboutGenerator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		27917BCC17092FA800180547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+					"\"$(SRCROOT)/../gh-unit/Project-iOS/build/Framework\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AboutGenerator/AboutGenerator-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "AboutGenerator/AboutGenerator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A471A4B5095949AA331C5AAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		A471AB8DC19EA6AD467724C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27917BCD17092FA800180547 /* Build configuration list for PBXNativeTarget "Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27917BCB17092FA800180547 /* Release */,
+				27917BCC17092FA800180547 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A471A632A4439C665E629D27 /* Build configuration list for PBXProject "AboutGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A471AB8DC19EA6AD467724C2 /* Release */,
+				A471A4B5095949AA331C5AAF /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A471AAD60B7DE5957ADE48E6 /* Project object */;
+}
