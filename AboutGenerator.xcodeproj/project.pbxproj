@@ -21,7 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		27917BB117092FA700180547 /* AboutGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AboutGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27917BB117092FA700180547 /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27917BB317092FA700180547 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		27917BB517092FA700180547 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		27917BB717092FA700180547 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
@@ -109,7 +109,7 @@
 		A471A469F4DCD3988DCB63E0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				27917BB117092FA700180547 /* AboutGenerator.app */,
+				27917BB117092FA700180547 /* Test.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -141,7 +141,7 @@
 			);
 			name = Test;
 			productName = AboutGenerator;
-			productReference = 27917BB117092FA700180547 /* AboutGenerator.app */;
+			productReference = 27917BB117092FA700180547 /* Test.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -312,6 +312,7 @@
 				27917BCC17092FA800180547 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A471A632A4439C665E629D27 /* Build configuration list for PBXProject "AboutGenerator" */ = {
 			isa = XCConfigurationList;
